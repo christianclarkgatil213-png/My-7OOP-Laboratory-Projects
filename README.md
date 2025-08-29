@@ -9,14 +9,14 @@
   
 ## About Me:
 
-
+</div>
 
 <p align= "center">
 <img src="photo.jpg" alt="My Photo" width="250" height="250"/>
 
 ---
 ## About myself:
-- Hello, I am Christian Clark Gatil, a person of values and virtues, friendly and approachable, and helpful who promotes integrity and shares my learned knowledge with others.
+- <h2> Hello, I am Christian Clark Gatil, a person of values and virtues, friendly and approachable, and helpful who promotes integrity and shares my learned knowledge with others. </h2>
 
 
 ### What I Believe In
@@ -83,6 +83,3 @@
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
-
-
-</div>
