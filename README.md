@@ -16,7 +16,7 @@
 
 ---
 ## About myself:
-- <h2> Hello, I am Christian Clark Gatil, a person of values and virtues, friendly and approachable, and helpful who promotes integrity and shares my learned knowledge with others. </h2>
+<h2> Hello, I am Christian Clark Gatil, a person of values and virtues, friendly and approachable, and helpful who promotes integrity and shares my learned knowledge with others. </h2>
 
 
 ### What I Believe In
