@@ -9,7 +9,7 @@
   
 ## About Me:
 
-</div>
+
 
 <p align= "center">
 <img src="photo.jpg" alt="My Photo" width="250" height="250"/>
@@ -85,3 +85,4 @@
 </p>
 
 
+</div>
