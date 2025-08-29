@@ -1,6 +1,10 @@
 # My-7OOP-Laboratory-Projects
 These are the projects that I have done during my studies in our 7OOP
 
+Here’s my photo:
+
+![My Photo](photo.jpg)
+
 ---
 ## About my self
 - A person of values and virtues, friendly and approachable :high_brightness: I am willing to learn :bulb: and to be thought :inbox_tray: to polish my skills and personaly. :seedling:
