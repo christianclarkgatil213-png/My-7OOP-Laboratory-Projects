@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f9fc;
+  color: #222;
+  margin: 0;
+  padding: 0 15px;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #2a4d69;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-photo {
+  display: block;
+  margin: 0 auto 15px auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 3px solid #2a4d69;
+}
+
+.badges {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.badges img {
+  margin: 5px;
+  height: 50px;
+}
+
+.tasks {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  max-width: 1000px;
+  background: white;
+}
+
+.tasks th, .tasks td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.tasks th {
+  background-color: #e6efff;
+}
+
+.tasks td a {
+  color: #2a4d69;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tasks td a:hover {
+  color: #1b98e0;
+}
+
+/* Remove outlines from badges and links */
+a:focus, a:active {
+  outline: none;
+  box-shadow: none;
+}
+
+a img {
+  border: none;
+  outline: none;
+}
+
+a:hover img {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  margin: 8px;
+  display: inline-block;
+}
