@@ -149,6 +149,54 @@ ul {
   box-shadow: 0 0 20px #00e0ff;
 }
 
+/* ===== Finals Section ===== */
+.finals {
+  margin: 40px auto;
+  padding: 30px 20px;
+  max-width: 900px;
+  background: rgba(10, 20, 40, 0.8);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(255, 0, 255, 0.3);
+  text-align: center;
+}
+
+.finals h2 {
+  color: #ff00ff;
+  text-shadow: 0 0 15px #ff00ff;
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 10px;
+}
+
+.coming-soon {
+  color: #00e0ff;
+  text-shadow: 0 0 10px #00e0ff, 0 0 20px #ff00ff;
+  animation: glow 1.5s infinite alternate;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.finals-photo {
+  width: 300px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 0 25px #ff00ff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.finals-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 35px #00e0ff;
+}
+
+/* Neon Glow Animation */
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #00e0ff, 0 0 10px #ff00ff;
+  }
+  to {
+    text-shadow: 0 0 15px #00e0ff, 0 0 25px #ff00ff;
+  }
+}
+
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
   width: 8px;
