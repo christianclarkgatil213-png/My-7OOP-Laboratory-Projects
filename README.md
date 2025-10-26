@@ -1,116 +1,102 @@
-<div align="center">
-  
-<h2> My-7OOP-Laboratory-Projects </h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My 7OOP Laboratory Projects - Christian Clark Gatil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-<h2> These are the projects that I have done during my studies in our 7OOP </h2>
+<body>
 
-<p align="center">
-  
-## About Me:
+  <div class="header">
+    <h2>My-7OOP-Laboratory-Projects</h2>
+    <h3>These are the projects that I have done during my studies in our 7OOP</h3>
+  </div>
 
-</div>
+  <section class="about">
+    <h2>👨‍💻 About Me</h2>
+    <img src="photo.jpg" alt="My Photo" class="profile-photo">
+    <p>Hello, I am <b>Christian Clark Gatil</b>, a person of values and virtues — friendly, approachable, and helpful. I promote integrity and share my learned knowledge with others.</p>
 
-<p align="center">
-<img src="photo.jpg" alt="My Photo" width="250" height="250"/>
+  <h3>💭 What I Believe In</h3>
+    <ul>
+      <li>What you do to others will come back to you 😶</li>
+      <li>Experience is the best teacher</li>
+      <li>Move not with motivation but with discipline</li>
+    </ul>
+  </section>
 
----
+  <section class="education">
+    <h2>🎓 Education</h2>
+    <p><b>Senior High School:</b> STI College Balibago</p>
+    <p><b>Junior High School:</b> Rafael L. Lazatin Memorial High School</p>
+    <p><b>Elementary:</b> Gueco Balibago Elementary School</p>
+  </section>
 
-## About myself:
-- Hello, I am Christian Clark Gatil, a person of values and virtues, friendly and approachable, and helpful who promotes integrity and shares my learned knowledge with others. 
+  <section class="languages">
+    <h2>📜 Languages I Used Before</h2>
+    <div class="badges">
+      <img src="https://img.shields.io/badge/MySQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" />
+      <img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" />
+      <img src="https://img.shields.io/badge/Java-%23217346.svg?style=for-the-badge&logo=java&logoColor=white" />
+    </div>
+  </section>
 
-### What I Believe In
-- I believe that what you do to others will come back to you 😶  
-- Experience is the best teacher  
-- Move not with motivation but with discipline  
+  <section class="projects">
+    <h2>💻 My Projects</h2>
 
----
+  <h3>🧪 MIDTERM</h3>
+    <table class="tasks">
+      <tr><th>No.</th><th>Title</th><th>Description</th><th>File</th></tr>
+      <tr><td>1</td><td>Lab Task 1 – Basic Python Operations</td><td>Escape sequences, placeholders, book reservation, and day identifier.</td><td><a href="./GG_OOPLABTASK1MIDTERm.pdf" target="_blank">📄 View</a></td></tr>
+      <tr><td>2</td><td>Lab Task 2 – Using Loops and Functions</td><td>Multiplication table and simple banking system using loops and functions.</td><td><a href="./Midterm%20Lab%20Task%202%20(1).pdf" target="_blank">📄 View</a></td></tr>
+      <tr><td>3</td><td>Lab Task 3 – List Collection Types</td><td>Add, search, remove, and view items using list operations.</td><td><a href="./Gatil7OOPMidterm%20Lab%20Task%203.%20Using%20List%20Collection%20types%20(1).pdf" target="_blank">📄 View</a></td></tr>
+      <tr><td>4</td><td>Lab Task 4 – Dictionary and Menu System</td><td>Coffee shop menu program using dictionary and loops.</td><td><a href="./Gatil.700PMidterm%20Lab%20Task%204%20(1).pdf" target="_blank">📄 View</a></td></tr>
+      <tr><td>5</td><td>Lab Task 5 – Classes and Objects</td><td>Social media user management using classes and object instantiation.</td><td><a href="./Gatil.MidtermLabTask5.7OOP.pdf" target="_blank">📄 View</a></td></tr>
+    </table>
 
-## 🎓 Education
-**Senior High School:** STI College Balibago  
-**Junior High School:** Rafael L. Lazatin Memorial High School  
-**Elementary:** Gueco Balibago Elementary School  
+  <h3>🎓 FINALS</h3>
+    <p>Coming soon...</p>
+  </section>
 
----
+  <section class="fun-facts">
+    <h2>💡 Fun Facts About Me</h2>
+    <ul>
+      <li>I have worked in a BPO company as a Technical Support Representative for almost 2 years.</li>
+      <li>I once drank 6 cups of coffee in a day ☕</li>
+      <li>I love playing instruments and writing songs 🎶</li>
+    </ul>
+  </section>
 
-## 📜 Languages I used before 
-<p align="left"> 
-<img src="https://img.shields.io/badge/MySQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" height="50"/> 
-&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" height="50"/>
-&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Java-%23217346.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white" height="50"/>  
+  <section class="skills">
+    <h2>📌 Skills</h2>
+    <ul>
+      <li>Time Management ⏰</li>
+      <li>Team Player 🤝</li>
+      <li>Good Listener 👂</li>
+      <li>Tech Skills 👨‍💻</li>
+      <li>Adaptability 🔄</li>
+    </ul>
+  </section>
 
----
+  <section class="connect">
+    <h2>📞 Click Below to Connect with Me!</h2>
+    <div class="social-links">
+      <a href="https://www.facebook.com/christianclark.gatil" target="_blank">
+        <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+      </a>
+      <a href="https://instagram.com/christianclarkgatil" target="_blank">
+        <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+      </a>
+      <a href="https://www.tiktok.com/@erlokgaming" target="_blank">
+        <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" />
+      </a>
+      <a href="mailto:christianclarkgatil1213@gmail.com" target="_blank">
+        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+      </a>
+    </div>
+  </section>
 
-## 💻 My Projects  
-
-## 🧩 Midterm OOP Lab Tasks – Christian Clark Gatil
-
-This section contains my **Object-Oriented Programming (OOP) Midterm Lab Tasks** for course **C204 BSCS**.  
-Each task includes Python code demonstrating concepts such as loops, lists, dictionaries, classes, and object instantiation.
-
----
-
-## 📘 Task Files
-
-| No. | Title | Description | File |
-|-----|--------|--------------|------|
-| 1 | **Lab Task 1 – Basic Python Operations** | Escape sequences, placeholders, book reservation, and day identifier. | [Download PDF](./GG_OOPLABTASK1MIDTERm.pdf) |
-| 2 | **Lab Task 2 – Using Loops and Functions** | Multiplication table and simple banking system using loops and functions. | [Download PDF](./Midterm%20Lab%20Task%202%20(1).pdf) |
-| 3 | **Lab Task 3 – List Collection Types** | Add, search, remove, and view items using list operations. | [Download PDF](./Gatil7OOPMidterm%20Lab%20Task%203.%20Using%20List%20Collection%20types%20(1).pdf) |
-| 4 | **Lab Task 4 – Dictionary and Menu System** | Coffee shop menu program using dictionary and loops. | [Download PDF](./Gatil.700PMidterm%20Lab%20Task%204%20(1).pdf) |
-| 5 | **Lab Task 5 – Classes and Objects** | Social media user management using classes and object instantiation. | [Download PDF](./Gatil.MidtermLabTask5.7OOP.pdf) |
-
----
-
-## 💡 Summary of Topics Covered
-
-- Variables, escape sequences, and placeholders  
-- Input and output handling  
-- Loops (`for`, `while`) and function definitions  
-- Lists and their methods  
-- Dictionaries and data lookups  
-- Object-Oriented Programming (Classes, Constructors, Methods, Objects)
-
----
-
-### 🎓 FINALS  
-
-(Coming soon...)
-
----
-
-## 💡 Fun Fact About Me:
-- I have working experience in a BPO company as a Technical Support Representative/Customer Support Representative for almost 2 years  
-- I once drank 6 cups of coffee in a day ☕  
-- I love playing instruments and creating songs 🎶  
-
----
-
-## 📌 Skills
-- Time Management ⏰  
-- Team Player 🤝  
-- Good Listener 👂  
-- Tech Skills 👨‍💻  
-- Adaptability 🔄  
-
----
-
-## 📞 Click Below to Connect with Me!   
-<p align="center">
-  <a href="https://www.facebook.com/christianclark.gatil" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
-  </a>
-
-  <a href="https://instagram.com/christianclarkgatil" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-  </a>
-
-  <a href="https://www.tiktok.com/@erlokgaming" target="_blank">
-    <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white"/>
-  </a>
-
-  <a href="mailto:christianclarkgatil1213@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
+</body>
+</html>
