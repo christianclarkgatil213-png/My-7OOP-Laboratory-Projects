@@ -1,7 +1,7 @@
 <div align="center">
 
 # ⚡ My-7OOP-Laboratory-Projects  
-### These are the futuristic projects I have done during my studies in 7OOP  
+### These are the projects that I have done during my studies in 7OOP  
 
 <img src="photo.jpg" alt="My Photo" width="250" height="250" style="border-radius:50%;border:2px solid #00e0ff;box-shadow:0 0 20px #00e0ff;"/>
 
