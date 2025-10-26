@@ -1,89 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My 7OOP Laboratory Projects - Christian Clark Gatil</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Clark Gatil - 7OOP Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+        }
+        a { text-decoration: none; color: inherit; }
+        img { max-width: 100%; }
+        header, section, footer { padding: 40px 20px; text-align: center; }
+        header img {
+            border-radius: 50%;
+            border: 2px solid #00e0ff;
+            box-shadow: 0 0 20px #00e0ff;
+            width: 200px;
+            height: 200px;
+        }
+        h1, h2, h3 { margin: 10px 0; }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 90%;
+            max-width: 900px;
+        }
+        table, th, td { border: 1px solid #00e0ff; }
+        th, td { padding: 12px; }
+        th { background-color: #00e0ff; color: #000; }
+        td { text-align: center; }
+        .badge-container img { margin: 5px; height: 40px; }
+        .fun-facts, .skills { margin: 20px auto; max-width: 700px; text-align: left; }
+        .skills span { display: inline-block; margin: 5px 10px; padding: 6px 12px; background-color: #00e0ff; border-radius: 8px; color: #000; font-weight: 500; }
+        footer { background-color: #111; padding: 30px 20px; }
+        footer img { height: 40px; margin: 5px; }
+        .finals img { width: 300px; border-radius: 12px; margin-top: 20px; }
+        @media(max-width: 600px) {
+            header img { width: 150px; height: 150px; }
+            .skills span { margin: 5px 5px; padding: 4px 8px; font-size: 14px; }
+        }
+    </style>
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header class="header">
-    <h1>⚡ My-7OOP-Laboratory-Projects ⚡</h1>
-    <h3>These are the futuristic projects I’ve built during my studies in 7OOP</h3>
-  </header>
+<header>
+    <img src="photo.jpg" alt="Christian Clark Gatil Photo">
+    <h1>⚡ Christian Clark Gatil</h1>
+    <h2>7OOP Laboratory Projects</h2>
+    <p>Hello! I’m <strong>Christian Clark Gatil</strong> — a creative and disciplined individual who values <strong>knowledge, integrity, and innovation</strong>.<br>
+    I love learning, solving problems, and building things that make an impact.</p>
+</header>
 
-  <!-- ABOUT ME -->
-  <section class="about">
-    <h2>👨‍💻 About Me</h2>
-    <img src="photo.jpg" alt="My Photo" class="profile-photo">
-    <p>
-      Hello, I’m <strong>Christian Clark Gatil</strong> — a creative and disciplined individual who values knowledge, integrity, and innovation.
-      I love learning, solving problems, and building things that make an impact.
-    </p>
-    <h3>💭 What I Believe In</h3>
+<section>
+    <h2>💭 What I Believe In</h2>
     <ul>
-      <li>“What you do to others will come back to you.”</li>
-      <li>“Experience is the best teacher.”</li>
-      <li>“Discipline beats motivation.”</li>
+        <li>“What you do to others will come back to you.”</li>
+        <li>“Experience is the best teacher.”</li>
+        <li>“Discipline beats motivation.”</li>
     </ul>
-  </section>
+</section>
 
-  <!-- EDUCATION -->
-  <section class="education">
+<section>
     <h2>🎓 Education</h2>
-    <p><b>Senior High School:</b> STI College Balibago</p>
-    <p><b>Junior High School:</b> Rafael L. Lazatin Memorial High School</p>
-    <p><b>Elementary:</b> Gueco Balibago Elementary School</p>
-  </section>
+    <ul>
+        <li><strong>Senior High School:</strong> STI College Balibago</li>
+        <li><strong>Junior High School:</strong> Rafael L. Lazatin Memorial High School</li>
+        <li><strong>Elementary:</strong> Gueco Balibago Elementary School</li>
+    </ul>
+</section>
 
-  <!-- LANGUAGES -->
-  <section class="languages">
+<section>
     <h2>🧠 Languages I Used Before</h2>
-    <div class="badges">
-      <img src="https://img.shields.io/badge/MySQL-003B57?style=for-the-badge&logo=mysql&logoColor=white" />
-      <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-      <img src="https://img.shields.io/badge/Java-FF6C37?style=for-the-badge&logo=java&logoColor=white" />
+    <div class="badge-container">
+        <img src="https://img.shields.io/badge/MySQL-003B57?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Badge">
+        <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C Badge">
+        <img src="https://img.shields.io/badge/Java-FF6C37?style=for-the-badge&logo=java&logoColor=white" alt="Java Badge">
     </div>
-  </section>
+</section>
 
-  <!-- PROJECTS -->
-  <section class="projects">
+<section>
     <h2>💻 Midterm Projects</h2>
-    <table class="tasks">
-      <tr><th>No.</th><th>Title</th><th>Description</th><th>File</th></tr>
-      <tr><td>1</td><td>Basic Python Operations</td><td>Escape sequences, placeholders, book reservation, and day identifier.</td><td><a href="./GG_OOPLABTASK1MIDTERm.pdf" target="_blank">📄 View</a></td></tr>
-      <tr><td>2</td><td>Using Loops and Functions</td><td>Multiplication table and simple banking system using loops and functions.</td><td><a href="./Midterm%20Lab%20Task%202%20(1).pdf" target="_blank">📄 View</a></td></tr>
-      <tr><td>3</td><td>List Collection Types</td><td>Add, search, remove, and view items using list operations.</td><td><a href="./Gatil7OOPMidterm%20Lab%20Task%203.%20Using%20List%20Collection%20types%20(1).pdf" target="_blank">📄 View</a></td></tr>
-      <tr><td>4</td><td>Dictionary and Menu System</td><td>Coffee shop menu program using dictionary and loops.</td><td><a href="./Gatil.700PMidterm%20Lab%20Task%204%20(1).pdf" target="_blank">📄 View</a></td></tr>
-      <tr><td>5</td><td>Classes and Objects</td><td>Social media user management using classes and object instantiation.</td><td><a href="./Gatil.MidtermLabTask5.7OOP.pdf" target="_blank">📄 View</a></td></tr>
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>File</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Basic Python Operations</td>
+            <td>Escape sequences, placeholders, book reservation, and day identifier.</td>
+            <td><a href="./GG_OOPLABTASK1MIDTERm.pdf">📄 View</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Using Loops and Functions</td>
+            <td>Multiplication table and simple banking system using loops and functions.</td>
+            <td><a href="./Midterm%20Lab%20Task%202%20(1).pdf">📄 View</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>List Collection Types</td>
+            <td>Add, search, remove, and view items using list operations.</td>
+            <td><a href="./Gatil7OOPMidterm%20Lab%20Task%203.%20Using%20List%20Collection%20types%20(1).pdf">📄 View</a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Dictionary and Menu System</td>
+            <td>Coffee shop menu program using dictionary and loops.</td>
+            <td><a href="./Gatil.700PMidterm%20Lab%20Task%204%20(1).pdf">📄 View</a></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Classes and Objects</td>
+            <td>Social media user management using classes and object instantiation.</td>
+            <td><a href="./Gatil.MidtermLabTask5.7OOP.pdf">📄 View</a></td>
+        </tr>
     </table>
-  </section>
+</section>
 
-  <!-- CONNECT -->
-  <section class="connect">
-    <h2>🚀 Connect with Me</h2>
-    <div class="social-links">
-      <a href="https://facebook.com/christianclark.gatil" target="_blank">
-        <img src="https://img.shields.io/badge/Facebook-0A84FF?style=for-the-badge&logo=facebook&logoColor=white">
-      </a>
-      <a href="https://instagram.com/christianclarkgatil" target="_blank">
-        <img src="https://img.shields.io/badge/Instagram-FF1493?style=for-the-badge&logo=instagram&logoColor=white">
-      </a>
-      <a href="https://www.tiktok.com/@erlokgaming" target="_blank">
-        <img src="https://img.shields.io/badge/TikTok-0FF0FC?style=for-the-badge&logo=tiktok&logoColor=black">
-      </a>
-      <a href="mailto:christianclarkgatil1213@gmail.com" target="_blank">
-        <img src="https://img.shields.io/badge/Gmail-FF2400?style=for-the-badge&logo=gmail&logoColor=white">
-      </a>
-    </div>
-  </section>
+<section class="finals">
+    <h2>🧩 Finals Projects</h2>
+    <h3>🚧 Coming Soon / To Be Announced</h3>
+    <p>Stay tuned for the next chapter of my futuristic 7OOP journey! 🌌</p>
+    <img src="YOUR_MR_FRESH_CAT_IMAGE_URL" alt="Mr. Fresh Side Eye Cat">
+</section>
 
-  <!-- FUN FACTS -->
-  <section class="fun-facts">
+<section class="fun-facts">
     <h2>💡 Fun Facts About Me</h2>
     <ul>
-      <li>I’ve worked in a BPO company as a Technical Support/Customer Support Representative for almost 2 years.</li>
-      <li>I once drank 6 cups of coffee in a day ☕.</li>
-      <li>I love playing instruments and creating so
+        <li>I’ve worked in a BPO company as a Technical Support/Customer Support Representative for almost <strong>2 years</strong>.</li>
+        <li>I once drank <strong>6 cups of coffee</strong> in a single day ☕.</li>
+        <li>I love <strong>playing instruments</strong> and <strong>creating songs</strong> 🎶.</li>
+    </ul>
+</section>
+
+<section class="skills">
+    <h2>⚙️ Skills</h2>
+    <span>🕒 Time Management</span>
+    <span>🤝 Team Player</span>
+    <span>👂 Good Listener</span>
+    <span>👨‍💻 Tech Skills</span>
+    <span>🔄 Adaptability</span>
+</section>
+
+<footer>
+    <h2>🚀 Connect with Me</h2>
+    <a href="https://facebook.com/christianclark.gatil" target="_blank">
+        <img src="https://img.shields.io/badge/Facebook-0A84FF?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
+    </a>
+    <a href="https://instagram.com/christianclarkgatil" target="_blank">
+        <img src="https://img.shields.io/badge/Instagram-FF1493?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+    </a>
+    <a href="https://www.tiktok.com/@erlokgaming" target="_blank">
+        <img src="https://img.shields.io/badge/TikTok-0FF0FC?style=for-the-badge&logo=tiktok&logoColor=black" alt="TikTok">
+    </a>
+    <a href="mailto:christianclarkgatil1213@gmail.com">
+        <img src="https://img.shields.io/badge/Gmail-FF2400?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+    </a>
+    <p>✨ Hosted with ❤️ on GitHub Pages</p>
+    <p><a href="https://christianclarkgatil213-png.github.io/My-7OOP-Laboratory-Projects/" target="_blank">🔗 Live Demo</a></p>
+</footer>
+
+</body>
+</html>
