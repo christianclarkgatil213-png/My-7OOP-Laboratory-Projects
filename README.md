@@ -49,6 +49,18 @@ I love learning, solving problems, and building things that make an impact.
 
 ---
 
+## 🧩 Finals Projects
+<div align="center">
+
+### 🚧 Coming Soon / To Be Announced  
+Stay tuned for the next chapter of my futuristic 7OOP journey! 🌌
+
+<img src="https://i.imgflip.com/4/4t0m5.jpg" alt="Funny Cat Meme" width="300"/>
+
+</div>
+
+---
+
 ## 💡 Fun Facts About Me
 - I’ve worked in a BPO company as a Technical Support/Customer Support Representative for almost **2 years**.  
 - I once drank **6 cups of coffee** in a single day ☕.  
